@@ -114,3 +114,20 @@ POST http://localhost:3000/report
 PUT http://localhost:3000/report/:id (Reemplaza :id con el ID del reporte)
 
 DELETE http://localhost:3000/report/:id (Reemplaza :id con el ID del reporte)
+
+
+DEPENDENCIAS 
+
+npm init -y
+npm install express
+npm install pg
+npm install dotenv
+npm install cors
+npm install --save-dev nodemon
+npm install mysql2
+
+
+opción 2 menos líneas de código 
+npm init -y
+npm install express pg dotenv cors
+npm install --save-dev nodemon
