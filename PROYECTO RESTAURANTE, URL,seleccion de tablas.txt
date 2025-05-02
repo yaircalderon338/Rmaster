@@ -1,0 +1,116 @@
+PROYECTO RESTAURANTE
+
+-- Ver todos los administradores
+SELECT * FROM tbl_admin;
+
+-- Ver todos los menús
+SELECT * FROM tbl_menu;
+
+-- Ver todos los ítems del menú
+SELECT * FROM tbl_menuitem;
+
+-- Ver todas las órdenes
+SELECT * FROM tbl_order;
+
+-- Ver detalles de cada orden
+SELECT * FROM tbl_orderdetail;
+
+-- Ver los roles existentes
+SELECT * FROM tbl_role;
+
+-- Ver el personal (staff)
+SELECT * FROM tbl_staff;
+
+-- Ver todos los reportes
+SELECT * FROM tbl_reports;
+
+
+URL NECESARIAS 
+
+1. Admin
+GET http://localhost:3000/admin
+
+GET http://localhost:3000/admin/:id (Reemplaza :id con el ID del administrador)
+
+POST http://localhost:3000/admin
+
+PUT http://localhost:3000/admin/:id (Reemplaza :id con el ID del administrador)
+
+DELETE http://localhost:3000/admin/:id (Reemplaza :id con el ID del administrador)
+
+2. Menu
+GET http://localhost:3000/menu
+
+GET http://localhost:3000/menu/:id (Reemplaza :id con el ID del menú)
+
+POST http://localhost:3000/menu
+
+PUT http://localhost:3000/menu/:id (Reemplaza :id con el ID del menú)
+
+DELETE http://localhost:3000/menu/:id (Reemplaza :id con el ID del menú)
+
+3. Menu Items
+GET http://localhost:3000/menuitem
+
+GET http://localhost:3000/menuitem/:id (Reemplaza :id con el ID del ítem del menú)
+
+POST http://localhost:3000/menuitem
+
+PUT http://localhost:3000/menuitem/:id (Reemplaza :id con el ID del ítem del menú)
+
+DELETE http://localhost:3000/menuitem/:id (Reemplaza :id con el ID del ítem del menú)
+
+4. Order
+GET http://localhost:3000/order
+
+GET http://localhost:3000/order/:id (Reemplaza :id con el ID de la orden)
+
+POST http://localhost:3000/order
+
+PUT http://localhost:3000/order/:id (Reemplaza :id con el ID de la orden)
+
+DELETE http://localhost:3000/order/:id (Reemplaza :id con el ID de la orden)
+
+5. Order Details
+GET http://localhost:3000/orderdetail
+
+GET http://localhost:3000/orderdetail/:id (Reemplaza :id con el ID del detalle de la orden)
+
+POST http://localhost:3000/orderdetail
+
+PUT http://localhost:3000/orderdetail/:id (Reemplaza :id con el ID del detalle de la orden)
+
+DELETE http://localhost:3000/orderdetail/:id (Reemplaza :id con el ID del detalle de la orden)
+
+6. Role
+GET http://localhost:3000/role
+
+GET http://localhost:3000/role/:id (Reemplaza :id con el nombre del rol)
+
+POST http://localhost:3000/role
+
+PUT http://localhost:3000/role/:id (Reemplaza :id con el nombre del rol)
+
+DELETE http://localhost:3000/role/:id (Reemplaza :id con el nombre del rol)
+
+7. Staff
+GET http://localhost:3000/staff
+
+GET http://localhost:3000/staff/:id (Reemplaza :id con el ID del miembro del personal)
+
+POST http://localhost:3000/staff
+
+PUT http://localhost:3000/staff/:id (Reemplaza :id con el ID del miembro del personal)
+
+DELETE http://localhost:3000/staff/:id (Reemplaza :id con el ID del miembro del personal)
+
+8. Reports
+GET http://localhost:3000/report
+
+GET http://localhost:3000/report/:id (Reemplaza :id con el ID del reporte)
+
+POST http://localhost:3000/report
+
+PUT http://localhost:3000/report/:id (Reemplaza :id con el ID del reporte)
+
+DELETE http://localhost:3000/report/:id (Reemplaza :id con el ID del reporte)
