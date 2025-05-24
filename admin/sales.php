@@ -145,8 +145,6 @@
                   <th class='text-center'>Total (COP)</th>
                   <th class='text-center'>Fecha</th>
                 </thead>
-                <button type="button" class="btn btn-danger" id="clearBtn">Limpiar Cambios</button>
-
                 <tbody id="tblBodyCurrentOrder">
                   <?php 
                   $displayOrderQuery =  "
